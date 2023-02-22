@@ -46,3 +46,25 @@ Alguns métodos interessantes: map, collect, findFirst e findAny.
 A api de datas é mais uma novidade do java 8. Com essa novidade, você não precisa lidar com as dificuldades de trabalhar com as classes Date e Calendar. As datas do LocalDate são imutáveis. Para obter diferenças entre duas datas, podemos usar o Period. As datas podem ser formatadas com DateTimeFormatter. Podemos também trabalhar com modelos mais específicos da nova api, como YearMonth. Existem diversas outras classes como essa para trabalhar de forma específica.
 
 Para trabalhar com horas, minutos e segundos, podemos usar a classe LocalDateTime. E, se quisermos apenas o tempo, podemos usar LocalTime.
+
+## Novidades de outras versões do java
+
+- Java 9
+    - Factory method para coleções: Collection.of
+    - Fluxo reativo
+    - Java modular: podemos declarar módulos que requerem algo
+- Java 10
+    - Releases baseadas em tempos
+    - Inferência de variável: vale para escopo de métodos, é local, permitindo o uso da palavra reservada var
+    - Interface para garbage collector
+- Java 11
+    - execução do java com um único comando, sem o javac
+    - HttpClient: nova api com suporte para http2 e tem métodos contrutores
+- Java 12
+    - novo garbage collector
+- Java 13
+    - mudanças na Socket api
+    - text blocks, facilitando escrita de strings com quebra de linha sem o uso de \n, usando aspas triplas
+- Java 14
+    - helpful NullPointerException
+    - Switch Expressions mais sucinta
