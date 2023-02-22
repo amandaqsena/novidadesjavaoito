@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
 public class ExemploCursos {
     public static void main(String[] args){
@@ -33,23 +34,11 @@ public class ExemploCursos {
         System.out.println(
             "Soma de alunos dos cursos que mais possuem alunos: "
              + soma);
-    }
-}
 
-class Curso {
-    private String nome;
-    private int alunos;
 
-    public Curso(String nome, int alunos) {
-        this.nome = nome;
-        this.alunos = alunos;
-    }
-
-    public String getNome() {
-        return nome;
-    }
-
-    public int getAlunos() {
-        return alunos;
+        // transformar o nosso Stream<Curso> em um Stream<String> 
+        // contendo apenas os nomes dos cursos
+        Stream<String> nomes = cursos.stream().map(Curso::getNome);
+        nomes.forEach(System.out::println);
     }
 }

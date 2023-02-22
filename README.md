@@ -29,4 +29,12 @@ Method references servem para blocos bem pequenos. A partir do java 8, todas as 
 
 Quando estivermos trabalhando com tipos primitivos, podemos usar streams primitivos para evitar o autoboxing, por exemplo o IntStream.
 
-Chamamos de design pattern essa forma de trabalhar que os streams usam, de retornar objetos do mesmo tipo ao chamar um método desse objeto.d
+Chamamos de design pattern essa forma de trabalhar que os streams usam, de retornar objetos do mesmo tipo ao chamar um método desse objeto.
+
+[Documentação da api de Stream](http://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html)
+
+## Optional
+
+É uma classe nova do java 8 que permite que trabalhemos com null. Evita o uso de "if(o == null)".
+
+Alguns métodos interessantes: map, collect, findFirst e findAny.
