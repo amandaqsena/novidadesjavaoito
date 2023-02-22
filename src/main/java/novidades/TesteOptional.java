@@ -38,6 +38,12 @@ public class TesteOptional {
         mapa.forEach((nome,alunos) ->
                 System.out.format("O curso %s possui %d alunos \n",
                 nome, alunos));
+
+        //média
+
+        cursos.stream()
+            .mapToInt(c -> c.getAlunos())
+            .average();
     }
     
 }

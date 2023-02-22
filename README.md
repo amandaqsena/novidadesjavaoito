@@ -38,3 +38,5 @@ Chamamos de design pattern essa forma de trabalhar que os streams usam, de retor
 É uma classe nova do java 8 que permite que trabalhemos com null. Evita o uso de "if(o == null)".
 
 Alguns métodos interessantes: map, collect, findFirst e findAny.
+
+[Documentação da api de Optional](http://docs.oracle.com/javase/8/docs/api/java/util/Optional.html)
