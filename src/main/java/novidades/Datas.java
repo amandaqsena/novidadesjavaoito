@@ -52,7 +52,7 @@ public class Datas {
         System.out.println(agora.format(formatadorComHoras));
 
         YearMonth anoEMes = YearMonth.of(2015, Month.JANUARY);
-
+        System.out.println(anoEMes);
         LocalTime intervalo = LocalTime.of(12, 30);
         System.out.println(intervalo);
     }
