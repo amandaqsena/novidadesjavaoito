@@ -40,3 +40,9 @@ Chamamos de design pattern essa forma de trabalhar que os streams usam, de retor
 Alguns métodos interessantes: map, collect, findFirst e findAny.
 
 [Documentação da api de Optional](http://docs.oracle.com/javase/8/docs/api/java/util/Optional.html)
+
+## Datas
+
+A api de datas é mais uma novidade do java 8. Com essa novidade, você não precisa lidar com as dificuldades de trabalhar com as classes Date e Calendar. As datas do LocalDate são imutáveis. Para obter diferenças entre duas datas, podemos usar o Period. As datas podem ser formatadas com DateTimeFormatter. Podemos também trabalhar com modelos mais específicos da nova api, como YearMonth. Existem diversas outras classes como essa para trabalhar de forma específica.
+
+Para trabalhar com horas, minutos e segundos, podemos usar a classe LocalDateTime. E, se quisermos apenas o tempo, podemos usar LocalTime.
